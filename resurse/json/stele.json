@@ -1,0 +1,126 @@
+{
+    "lastId": 15,
+    "stele":[
+        {
+            "id": 1, 
+            "nume": "Soare", 
+            "descriere":"Steaua din centrul Sistemului Solar",
+            "TemperaturaKelvin": 5778,
+            "supergiganta": false,
+            "dataDescoperire": "0-0-0"
+        },
+        {
+            "id": 2, 
+            "nume": "Sirius A", 
+            "descriere":"Steaua cea mai stralucitoare de pe cer",
+            "TemperaturaKelvin": 9940,
+            "supergiganta": false,
+            "dataDescoperire": "22-09-1862"
+        },
+        {
+            "id":3,
+            "nume":"Betelegeuse",
+            "descriere": "Apartine constelatiei Orion si este pe cale sa devina supernova",
+            "TemperaturaKelvin": 3500,
+            "supergiganta":true,
+            "dataDescoperire": "01-01-1999"
+        },
+        {
+            "id":4,
+            "nume":"UY Scuty",
+            "descriere": "Cea mai mare stea descoperita",
+            "TemperaturaKelvin" : 9940,
+            "supergiganta":true,
+            "dataDescoperire": "22-09-1862"
+        },
+        {
+            "id":5,
+            "nume":"Rigel",
+            "descriere": "Supergiganta albastra, cea mai stralucitoare din constelatia Orion",
+            "TemperaturaKelvin" :11000,
+            "supergiganta":true,
+            "dataDescoperire": "22-09-1862"
+        },
+        {
+            "id": 6, 
+            "nume": "Aldebaran", 
+            "descriere":"Steaua cea mai stralucitoare din constelatia Taurus",
+            "TemperaturaKelvin": 3910,
+            "supergiganta": true,
+            "dataDescoperire": "15-06-1862"
+        },
+        {
+            "id": 7, 
+            "nume": "Canopus", 
+            "descriere":"Steaua cea mai stralucitoare din constelatia Carena",
+            "TemperaturaKelvin": 7350,
+            "supergiganta": false,
+            "dataDescoperire": "13-04-2002"
+        },
+        {
+            "id":8,
+            "nume":"Arcturus",
+            "descriere": "Steaua cea mai stralucitoare din constelatia Boarului",
+            "TemperaturaKelvin": 4290,
+            "supergiganta": true,
+            "dataDescoperire": "15-12-2005"
+        },
+        {
+            "id":9,
+            "nume":"Altair",
+            "descriere": "Stea din constelatia Vulturul, formeaza Triunghiul de Vara",
+            "TemperaturaKelvin" :7700,
+            "supergiganta": true,
+            "dataDescoperire": "16-04-1912"
+        },
+        {
+            "id":10,
+            "nume":"Antares",
+            "descriere": "Steaua cea mai stralucitoare din constelatia Scorpionul",
+            "TemperaturaKelvin" :6300,
+            "supergiganta": true,
+            "dataDescoperire": "26-07-1956"
+        },
+        {
+            "id": 11, 
+            "nume": "Antares", 
+            "descriere":"Steaua cea mai stralucitoare din constelatia Gemenii",
+            "TemperaturaKelvin": 4865,
+            "supergiganta": true,
+            "dataDescoperire": "29-05-1830"
+        },
+        {
+            "id": 12, 
+            "nume": "Regulus", 
+            "descriere":"Steaua cea mai stralucitoare din constelatia Leul",
+            "TemperaturaKelvin": 5120,
+            "supergiganta": false,
+            "dataDescoperire": "19-03-1880"
+        },
+        {
+            "id":13,
+            "nume":"Capella",
+            "descriere": "Vizibila din emisfera nordica",
+            "TemperaturaKelvin": 3500,
+            "supergiganta": false,
+            "dataDescoperire": "15-04-1994"
+        },
+        {
+            "id":14,
+            "nume":"Procyon",
+            "descriere": "Vizibila cu ochiul liber, face parte din constelatia Cainele Mic",
+            "TemperaturaKelvin" :4100,
+            "supergiganta": true,
+            "dataDescoperire": "12-08-1654"
+        },
+        {
+            "id":15,
+            "nume":"Vega",
+            "descriere": "Steaua cea mai stralucitoare din constelatia Lira",
+            "TemperaturaKelvin" :9900,
+            "supergiganta": true,
+            "dataDescoperire": "14-03-1714"
+        }
+
+    ]
+}

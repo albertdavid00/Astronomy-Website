@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Pagina principala</title>
+
+	<meta charset="utf-8">
+	<meta name="author" content="Ionel"/>
+	<link type="text/css" rel="stylesheet" href="/Style/CommonStyle.css"/>
+	<link type="text/css" rel="stylesheet" href="/Style/Style404.css"/>
+</head>
+<body class="container">
+<!-- cod ejs -->
+<!-- cand pun - spun ca sirul respectiv sa aiba tagurile interpretate ca taguri -->
+<%- include("../fragmente/header404")  %> <!-- extensia nu e necesara -->
+<main>
+	<section class= "fundal" id = "fundalInreg">
+		<div id = "afisareReg">
+			<form method ="post" action = "/inreg" id = "formReg">
+				<label for = "username" id = "userReg"> 
+					Username <input type = "text" name ="username" placeholder="ex: SnoopDogg "> <br></br>
+				</label>
+				<label for = "nume" id = "numeReg"> 
+					Nume <input type = "text" name="nume" placeholder="ex: Ionescu Ion"> <br></br>
+				</label>
+				<label for = "email" id = "emailReg">
+					 E-mail <input type = "email" name ="email" placeholder="ex: snoop.ion@mail.com"> <br></br>
+				</label>
+				<label for = "constelatii" id = "ConstelReg">
+					 Constelații <input type = "text" name = "constelatii" placeholder="preferate/cunoscute"> <br></br> 
+				</label>
+				<label for = "fenomene" id = "fenomeneReg"> 
+					Fenomene <input type = "text" name = "fenomene" placeholder="preferate ex: eclipsa totala"> 	
+				</label> <br> </br>
+				<label for = "parola" id = "passReg"> 
+					Parola <input type = "password"  name ="parola" placeholder="Sa nu o spui la nimeni"> 	
+				</label>
+				<p id = "tipUser">
+					Sunt: <br>
+					<label>
+						Pasionat: <input type="checkbox" name="tip" value="pasionat">
+					</label> 
+					<br>
+					<label>
+						Amator: <input type="checkbox" name="tip" value="amator">
+					</label>
+					<br> 
+					<label>
+						Profesionist: <input type="checkbox" name="tip" value="profesionist">
+					</label>
+					</p>
+				</p>
+				<input type = "submit" value = "Inregistrare"  id ="inpReg">
+				<!-- <button id = "inpReg" type= "button" onclick="location.href = '/index';"> Inregistrare </button> -->
+  			</form>
+		</div>
+	</section>
+</main>
+<%- include("../fragmente/footer")  %> <!-- extensia nu e necesara -->
+
+</body>
+</html>  

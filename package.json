@@ -1,0 +1,29 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "Site despre astronomie",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/albertdavid00/albertdavid00.github.io.git"
+  },
+  "keywords": [
+    "astronomie",
+    "spatiu"
+  ],
+  "author": "David Albert-Constantin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/albertdavid00/albertdavid00.github.io/issues"
+  },
+  "homepage": "https://github.com/albertdavid00/albertdavid00.github.io#readme",
+  "dependencies": {
+    "ejs": "^3.1.2",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "formidable": "^1.2.2"
+  }
+}

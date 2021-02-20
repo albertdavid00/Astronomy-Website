@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Pagina principala</title>
+
+	<meta charset="utf-8">
+	<meta name="author" content="Ionel"/>
+	<link type="text/css" rel="stylesheet" href="/Style/CommonStyle.css"/>
+	<link type="text/css" rel="stylesheet" href="/Style/Style404.css"/>
+</head>
+<body class="container">
+<!-- cod ejs -->
+<!-- cand pun - spun ca sirul respectiv sa aiba tagurile interpretate ca taguri -->
+<%- include("../fragmente/header404")  %> <!-- extensia nu e necesara -->
+<main>
+	<section class= "fundal">
+		<h2> ERROR 404 </h2>
+		<div id = "divError">   
+		</div>
+		<p>Ne pare rau, dar pagina nu a fost gasita! :(</p>
+	</section>
+</main>
+<%- include("../fragmente/footer")  %> <!-- extensia nu e necesara -->
+
+</body>
+</html>  

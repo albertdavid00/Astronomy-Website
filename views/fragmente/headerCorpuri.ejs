@@ -1,0 +1,41 @@
+<header>
+    <h1 id= "Home" > Spațiul cosmic </h1>
+    <div id="formular">
+        <% if (!locals.username) { %>
+        <form style="top: 10px;" id="login" method="post" action="/login">
+            <label id="user">
+                Username: <input type="text" name="username">
+                <button type="button" onclick="location.href = '/inreg';"> Register </button>
+            </label> <br>
+            <label id="pass">
+                Password: <input type="password" name="parola">
+            </label>
+            <input id="inp" type="submit" value="Login">
+        </form>
+        <% } else { %>
+        <div id="numeLogin"> Esti logat drept: <%= locals.username %> <br>
+            <a href="/logout">Logout</a> </div>
+        <% } %>
+    </div>
+    <nav>
+        <ul class="menu">
+            <li><a href = "/index"> Acasa </a>
+                <ul class="submenu">
+                    <li><a href = "/index#Introducere"> Introducere in astronomie </a></li>
+                    <li><a href = "/index#Teorii"> Teorii din antichitate </a> </li>
+                    <li><a href = "/index#BigBang"> Big Bang </a> </li>
+                </ul>
+            </li>
+            <li class= "active"><a href = "/Corpuri" target = "_top"> Corpuri </a>
+                <ul class= "submenu">
+                    <li><a href = "#Planete"> Planete </a></li>
+                    <li><a href = "#Stele"> Stele </a></li>
+                    <li><a href = "#Galaxii"> Galaxii </a></li>
+                </ul>
+            </li>
+            <li><a href = "/Fenomene"> Fenomene </a></li>
+            <li><a href="/JsonPage"> Entitati </a></li>
+            <li><a href = "/Q&A"> Q & A </a></li>
+        </ul>
+    </nav>
+</header>

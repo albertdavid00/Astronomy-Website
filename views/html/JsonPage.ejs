@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ro">
+	<head>
+		<title> Astronomie </title>
+		<meta charset="UTF-8">
+		<meta name="description" content="Introducere in Astronomie. Planete. Galaxii">
+		<meta name="keywords" content="Astronomie, Spatiu cosmic, Univers">
+		<meta name="author" content="David Albert-Constantin">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="shortcut icon" type="image/x-len" href = "images/astronomy-for-beginners.jpg">
+		<link rel="stylesheet" type="text/css" href="/Style/CommonStyle.css">
+		<link rel="stylesheet" type="text/css" href="/Style/StyleIndex.css">
+		<script src="js/ejs.min.js"></script>
+		<script src="js/script.js"></script>
+	</head>
+	<body>
+		<%- include("../fragmente/headerExpeditii") %>
+        <main>
+            <section class= "fundal" id = "idFundal">  
+                <h1>JSON</h1>
+               <!-- <p>Continut JSON:</p> -->
+                    <!-- aici se va afisa continutul neprocesat al JSON-ului -->
+				<!-- <div class="afis" id="afisJson"></div> -->
+					
+		
+				<button id = "resetare"> Resetare obiecte</button>
+				<button id="sort_temp"> Sorteaza dupa temperatura</button>
+				<button id="sort_id"> Sorteaza dupa id</button> 
+				<button id="medie"> Calculati media temperaturilor </button>
+				<button id = "advanced_sort"> Sortare data/temp/nume</button>
+				<button id = "sort_date"> Sortare luna / an </button>
+				<button id = "duplicate">Sterge duplicate </button>
+				<div id = "labelTemp">
+					<label for = "InputId">
+						Afiseaza stelele cu Temperatura (Kelvin) mai mare de: 
+						<input type="range" name="InputTemp" id="InputId" value="0" min="0" max="11000" step = "100" oninput="OutputId.value = InputId.value">
+						<output name="OutputTemp" id="OutputId">0</output>
+						<button id="SubmitTemp"> Submit </button>
+					</label>
+				</div>
+				<!-- aici se va afisa continutul JSON-ului cu formatul din template-ul definit in script -->
+				<div class="afis" id="afisTemplate"> </div>
+
+            </section>
+        </main>	
+		<%- include("../fragmente/footer") %>
+	</body>
+</html>
