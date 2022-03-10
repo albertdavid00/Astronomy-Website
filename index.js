@@ -6,6 +6,7 @@ var session = require('express-session');
 var fs = require('fs');//file system - folosim pt administrare de directoare si fisiere  (inclusiv citit+scris)
 var crypto= require('crypto');
 var app = express();//createServer
+const port = process.env.PORT || 3000;
 
 // pentru folosirea ejs-ului 
 app.set('view engine', 'ejs');
@@ -151,8 +152,8 @@ app.get('/*', function(req, res){
 // 	res.status(404).render("html/404");
 // })
 
-app.listen(8080);
-console.log('Aplicatia se va deschide pe portul 8080.');
+app.listen(port);
+// console.log('Aplicatia se va deschide pe portul stabilit.');
 
 
 
